@@ -1,0 +1,36 @@
+create database user , user1 , user2;
+drop database userf , hgh , hghhg , hghghg , hjgj , jrh , sfdfsdf , vbv , jtyjt;
+rename database sss to kk;
+show databases;
+use user;
+
+create table people (id int primary key,name varchar,now datetime,salary double,age int,sex int,phone int);
+create table people (id int primary key,name varchar);
+show tables;
+desc dept;
+show create table people \G;
+drop table user , people , dept;
+rename table user to dept;
+alter table user add now datetime;
+alter table user change ssss ok double;
+alter table user drop money;
+alter table user modify money int;
+
+insert into people values (1,'vdvd') , (2,'cscscsc') , (3,'fgbfbf') , (4,'nhgng');
+select * from people;
+update people set name = '张三' where id = 1;
+delete from people where sex = 22.5;
+truncate table people;
+
+create user ddd identified by 'vdddvd';
+drop user ddd;
+grant all privileges on user1.people , user1.user to ddd identified by '123456';
+grant insert , select , update on ss.* to testdb with grant option;
+rename user dept to user;
+revoke rename , alter , desc , insert on user1.people , user1.user from ddd;
+revoke all privileges , grant option from ddd;
+set password = password('123454');
+set password for ddd = password('000000');
+
+select log from people order by date asc;
+truncate log mysql.general_log;

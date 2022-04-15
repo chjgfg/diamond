@@ -1,0 +1,7 @@
+id int *
+name varchar ~
+sex boolean ~
+phone int ~
+email varchar ~
+dept_id int ~
+salary_id int ~

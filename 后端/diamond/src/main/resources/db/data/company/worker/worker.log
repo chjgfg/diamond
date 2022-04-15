@@ -1,0 +1,76 @@
+admin -> 2022-04-13 14:05:50 -> select * from worker
+admin -> 2022-04-13 14:06:37 -> insert into worker (id,name,sex,phone,email,dept_id,salary_id) values (1,'one',1,1234567878,'1234567878@qq.com',1,1);
+admin -> 2022-04-13 14:06:38 -> select * from worker
+admin -> 2022-04-13 14:07:11 -> insert into worker (id,name,sex,phone,email,dept_id,salary_id) values (2,'two',0,1478523998,'1478523998@qq.com',,);
+admin -> 2022-04-13 14:07:24 -> insert into worker (id,name,sex,phone,email,dept_id,salary_id) values (2,'two',0,1478523998,'1478523998@qq.com',2,3);
+admin -> 2022-04-13 14:07:25 -> select * from worker
+admin -> 2022-04-13 14:14:58 -> select * from worker
+admin -> 2022-04-13 14:15:57 -> select * from worker
+boss -> 2022-04-13 14:18:34 -> select * from worker
+worker1 -> 2022-04-13 14:20:04 -> select * from worker
+admin -> 2022-04-13 14:23:47 -> select * from worker
+admin -> 2022-04-13 14:24:08 -> select * from worker
+admin -> 2022-04-13 14:24:59 -> select * from worker
+admin -> 2022-04-13 14:27:25 -> select * from worker
+admin -> 2022-04-13 14:31:01 -> select * from worker
+admin -> 2022-04-13 14:31:06 -> select * from worker left join department oni department.id = worker.dept_id
+admin -> 2022-04-13 14:31:15 -> select * from worker left join department oni department.id = worker.dept_id
+admin -> 2022-04-13 14:31:23 -> select * from worker left join department oni department.id = worker.dept_id
+admin -> 2022-04-13 14:31:58 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 14:31:58 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 14:32:16 -> select * from worker
+admin -> 2022-04-13 15:23:00 -> select * from worker
+admin -> 2022-04-13 15:23:05 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:23:05 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:24:11 -> select * from worker
+admin -> 2022-04-13 15:24:58 -> insert into worker (id,name,sex,phone,email,dept_id,salary_id) values (3,'three',1,1234567878,'1234567878@qq.com',3,3);
+admin -> 2022-04-13 15:25:04 -> select * from worker
+admin -> 2022-04-13 15:26:05 -> update worker set dept_id = 2 where id = 3
+admin -> 2022-04-13 15:26:10 -> select * from worker
+admin -> 2022-04-13 15:26:27 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:26:27 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:51:31 -> delete from worker where id = 3
+admin -> 2022-04-13 15:51:37 -> select * from worker
+admin -> 2022-04-13 15:51:43 -> insert into worker (id,name,sex,phone,email,dept_id,salary_id) values (3,'one',1,1234567878,'1234567878@qq.com',3,3);
+admin -> 2022-04-13 15:51:50 -> select * from worker
+admin -> 2022-04-13 15:51:55 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:51:55 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:52:04 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:52:04 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:53:16 -> update worker set dept_id = 2 where id = 3
+admin -> 2022-04-13 16:23:28 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:23:28 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:23:33 -> select * from worker
+admin -> 2022-04-13 16:23:38 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:23:38 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:23:47 -> insert into worker (id,name,sex,phone,email,dept_id,salary_id) values (3,'one',1,1234567878,'1234567878@qq.com',3,3);
+admin -> 2022-04-13 16:24:36 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:24:36 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:24:41 -> select * from worker
+admin -> 2022-04-13 16:24:47 -> insert into worker (id,name,sex,phone,email,dept_id,salary_id) values (3,'one',1,1234567878,'1234567878@qq.com',3,3);
+admin -> 2022-04-13 16:27:08 -> select * from worker
+admin -> 2022-04-13 16:27:14 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:27:14 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:52:34 -> select * from worker
+admin -> 2022-04-13 16:56:18 -> select * from worker
+admin -> 2022-04-13 16:58:02 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:02 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:06 -> select * from worker
+admin -> 2022-04-13 16:58:11 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:11 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:17 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:17 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:19 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:19 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:23 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:23 -> select * from worker left join department on department.id = worker.dept_id

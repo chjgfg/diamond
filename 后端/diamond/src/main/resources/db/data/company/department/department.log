@@ -1,0 +1,33 @@
+admin -> 2022-04-13 14:07:32 -> select * from department
+admin -> 2022-04-13 14:13:35 -> insert into department (id,name,principal) values (1,'业务部',);
+admin -> 2022-04-13 14:13:40 -> insert into department (id,name,principal) values (1,'业务部',0);
+admin -> 2022-04-13 14:13:40 -> select * from department
+admin -> 2022-04-13 14:14:02 -> insert into department (id,name,principal) values (2,'财务部',0);
+admin -> 2022-04-13 14:14:03 -> select * from department
+admin -> 2022-04-13 14:14:15 -> insert into department (id,name,principal) values (3,'财务部',0);
+admin -> 2022-04-13 14:14:15 -> select * from department
+admin -> 2022-04-13 14:14:28 -> insert into department (id,name,principal) values (4,'技术部',0);
+admin -> 2022-04-13 14:14:29 -> select * from department
+admin -> 2022-04-13 14:14:54 -> select * from department
+admin -> 2022-04-13 14:14:56 -> select * from department
+admin -> 2022-04-13 14:31:58 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:23:05 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:26:27 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:51:55 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 15:52:04 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:23:28 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:23:38 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:24:36 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:27:14 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:27:36 -> select * from department
+admin -> 2022-04-13 16:48:38 -> select * from department
+admin -> 2022-04-13 16:58:02 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:11 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:17 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:18 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:19 -> select * from worker left join department on department.id = worker.dept_id
+admin -> 2022-04-13 16:58:23 -> select * from worker left join department on department.id = worker.dept_id

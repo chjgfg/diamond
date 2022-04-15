@@ -1,0 +1,6 @@
+admin -> 2022-04-13 14:15:11 -> select * from salary
+admin -> 2022-04-13 14:15:36 -> insert into salary (id,base,perform,subsidy,overtime) values (1,3333.3,6636.6,66.36,112.36);
+admin -> 2022-04-13 14:15:37 -> select * from salary
+admin -> 2022-04-13 14:15:51 -> insert into salary (id,base,perform,subsidy,overtime) values (2,412563.6,451.621,51.54,564.5);
+admin -> 2022-04-13 14:15:52 -> select * from salary
+admin -> 2022-04-13 16:48:42 -> select * from salary
